@@ -15,6 +15,7 @@
 		9C94CC7820EFBA2900F60018 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C94CC7720EFBA2900F60018 /* main.m */; };
 		9C94CC8220EFBA2900F60018 /* CustomLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C94CC8120EFBA2900F60018 /* CustomLayerTests.m */; };
 		9C94CC8D20EFBA2900F60018 /* CustomLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C94CC8C20EFBA2900F60018 /* CustomLayerUITests.m */; };
+		9C94CC9C20EFC15800F60018 /* CameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C94CC9B20EFC15800F60018 /* CameraVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9C94CC8820EFBA2900F60018 /* CustomLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C94CC8C20EFBA2900F60018 /* CustomLayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLayerUITests.m; sourceTree = "<group>"; };
 		9C94CC8E20EFBA2900F60018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C94CC9A20EFC15800F60018 /* CameraVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraVC.h; sourceTree = "<group>"; };
+		9C94CC9B20EFC15800F60018 /* CameraVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				9C94CC6920EFBA2900F60018 /* AppDelegate.m */,
 				9C94CC6B20EFBA2900F60018 /* ViewController.h */,
 				9C94CC6C20EFBA2900F60018 /* ViewController.m */,
+				9C94CC9A20EFC15800F60018 /* CameraVC.h */,
+				9C94CC9B20EFC15800F60018 /* CameraVC.m */,
 				9C94CC6E20EFBA2900F60018 /* Main.storyboard */,
 				9C94CC7120EFBA2900F60018 /* Assets.xcassets */,
 				9C94CC7320EFBA2900F60018 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 				9C94CC6D20EFBA2900F60018 /* ViewController.m in Sources */,
 				9C94CC7820EFBA2900F60018 /* main.m in Sources */,
 				9C94CC6A20EFBA2900F60018 /* AppDelegate.m in Sources */,
+				9C94CC9C20EFC15800F60018 /* CameraVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47A3N54MRY;
 				INFOPLIST_FILE = CustomLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Peyton.CustomLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47A3N54MRY;
 				INFOPLIST_FILE = CustomLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Peyton.CustomLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
